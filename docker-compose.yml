@@ -1,0 +1,9 @@
+version: '1'
+services:
+  code-review-bot:
+    image:
+    env_file:
+      - .env
+    restart: always
+    ports:
+      - 3000:3000
