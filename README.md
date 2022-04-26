@@ -1,28 +1,27 @@
 # Bot Code Review
 
-## Descrição
+## Description
 
-A ideia do Bot é automatizar a revisao de códigos da equipe, lançando as notificaçoes via Slack. O bot deve funcionar em qualquer ambiente de repositorio (github, gitlab ou Azure). Lembrando que o Bot pode ser editado e inclusas novas regras de revisao durante a produçao do time. 
+Bot's idea is to automate the team's code review, launching notifications via Slack. The bot should work in any repository environment (github, gitlab or Azure). Remembering that the Bot can be edited and new review rules included during the team's production.
 
 ## Features
 
-Features relevantes para o Bot
+Features to implement
 
 - [x] MongoDB
-- [x] Setar ambiente Docker
-- [x] Jest instalado
-- [x] Sincronizar com GitLab
-- [x] Sincronizar com Slack
-- [x] Setar ambiente Azure
-- [ ] Sincronizar com ambiente Github
-- [x] Regras de revisao Lint
-- [ ] Regras de revisao Prettier
-- [ ] Regras de revisao ReactJS
-- [ ] Regras de revisao React Native
-- [ ] Regras de revisao de PRs
-- [ ] Regras de revisao de Commits
-- [ ] Instalar Commitzen
-- [ ] Definir testes e como testar
-- [ ] Nomear o Bot
-- [ ] Atualizar dependencias
-- [ ] Refatorar alguns pontos do codigo antigo
+- [x] Setting environment Docker
+- [x] Jest 
+- [x] Sinc with GitLab
+- [x] Sinc with Slack
+- [x] Sinc with Azure
+- [ ] Sinc with Github
+- [x] Rules for Lint
+- [ ] Prettier rules
+- [ ] ReactJS rules
+- [ ] React Native rules
+- [ ] PRs rules
+- [ ] Commits rules
+- [ ] Commitzen
+- [ ] Naming the Bot
+- [ ] Update dependencies
+- [ ] Refactoring some old points
